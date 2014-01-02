@@ -1,8 +1,11 @@
 // ==UserScript==
-// @name Skip appfull.net redirect link
-// @namespace http://fitri.wibowo.uni.me
-// @description Skip the wait time / ads while going to external link on appfull.net
-// @include http://www.appfull.net/go*
-// ==/UserScript== 
+// @name        Appfull.net timer skipper
+// @namespace   fitri.wibowo.uni.me/appfullnet_skipper
+// @description Skip the timer on appfull.net while going to external link
+// @include     http://www.appfull.net/go*
+// @version     1.0
+// @grant       none
+// @author      parcox (parcoxs[@t]gmail.com)
+// ==/UserScript==
 
-document.body.style.background = "#ffffff";
+window.location = document.getElementById("page")
